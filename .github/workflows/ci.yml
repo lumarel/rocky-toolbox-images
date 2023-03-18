@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_REGISTRY: docker.io
-  IMAGE_ACCOUNT: rockylinux
+  IMAGE_REGISTRY: quay.io
+  IMAGE_ACCOUNT: lumarel
 
 jobs:
   run_toolbox_builds:

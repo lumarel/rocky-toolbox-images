@@ -44,7 +44,7 @@ jobs:
           labels: |
             name=rocky-toolbox
             version=${{ matrix.version }}
-          tags: ${{ env.IMAGE_REGISTRY }}/${{ env.IMAGE_ACCOUNT }}/rocky-toolbox/${{ matrix.version }}
+          tags: ${{ env.IMAGE_REGISTRY }}/${{ env.IMAGE_ACCOUNT }}/rocky-toolbox:${{ matrix.version }}
 
       - name: Push image
         uses: redhat-actions/push-to-registry@v2

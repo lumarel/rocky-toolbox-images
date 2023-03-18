@@ -31,7 +31,7 @@ jobs:
         uses: redhat-actions/buildah-build@v2
         id: build-image
         with:
-          archs: amd64, arm64/v8
+          archs: linux/amd64, linux/arm64/v8
           build-args: |
             ImageVersion=${{ matrix.version }}
           containerfiles: |

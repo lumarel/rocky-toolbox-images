@@ -1,5 +1,5 @@
 ---
-name: Build toolbox images
+name: Build CI
 
 on:
   pull_request:

@@ -3,7 +3,7 @@ name: Build toolbox images
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches: [ main ]
   workflow_dispatch:
   schedule:
     - cron: "30 0 * * 0"

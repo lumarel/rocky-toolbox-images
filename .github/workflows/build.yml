@@ -33,6 +33,7 @@ jobs:
       
       - name: Build image
         uses: redhat-actions/buildah-build@v2
+        id: build-image
         with:
           build-args: |
             ImageVersion=${{ matrix.version }}

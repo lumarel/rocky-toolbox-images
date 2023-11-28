@@ -19,10 +19,10 @@ jobs:
             arch: 'amd64, arm64, ppc64le, s390x'
         registry:
           - domain: docker.io
-            account: rockylinux
+            account: lumarel
             secret: DOCKER
           - domain: quay.io
-            account: rockylinux
+            account: lumarel
             secret: QUAY
     runs-on: ubuntu-latest
     name: Build and push toolbox images
